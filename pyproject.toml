@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "crewai>=0.157.0",
+    "crewai-tools>=0.60.0",
+    "langchain-community>=0.3.27",
+    "ipykernel",
+    "pip",
+]
